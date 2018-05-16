@@ -22,7 +22,7 @@ import dj_database_url
 db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
 
-ALLOWED_HOSTS = [".localhost", ".herokuapp.com", ".northbaypython.org"]
+ALLOWED_HOSTS = [".localhost", "165.227.7.207"]
 CANONICAL_HOST = os.environ.get("DJANGO_CANONICAL_HOST", None)
 
 # If DEFAULT_FROM_EMAIL is not set, email will most likely break in prod.
