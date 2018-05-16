@@ -19,6 +19,9 @@ django-timezone-field==2.0
 django-model-utils==3.0.0
 wiki==0.3b3
 django-email-log==0.2.0
+django-nested-admin=2.2.6
+pinax-stripe==4.3.0
+django-taggit==0.22.2
 
 # For testing
 django-nose==1.4.4
